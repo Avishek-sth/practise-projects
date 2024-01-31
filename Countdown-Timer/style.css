@@ -1,0 +1,27 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: red;
+    color: whitesmoke;
+  }
+  
+  #countdown {
+    outline: auto;
+    background: blue;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+
+  #timer {
+    font-size: 4rem;
+  }
+  
+  .timerUnit {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
